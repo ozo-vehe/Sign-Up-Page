@@ -202,10 +202,14 @@ form > p {
     display: flex;
     justify-content: space-evenly;
 }
+.socialSignUp p {
+    text-transform: capitalize;
+}
 .socialSignUp img {
     padding: 15px;
     border-radius: 3px;
     box-shadow: 0px 0px 5px var(--border-color);
+    cursor: pointer;
 }
 
 /*****************     FOOTER SECTION      ***************/
