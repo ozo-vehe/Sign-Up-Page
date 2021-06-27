@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeTeach</title>
+    <link rel="stylesheet" href="./css/newSignUp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="loginIntroSection">
+            <div class="loginIntroImg">
+                <img class="firstImg" src="./images/image-01.png" alt="Learn Anywhere">
+                <img class="secondImg" src="./images/image-02.png" alt="Learn Anywhere">
+                <img class="thirdImg" src="./images/image-03.png" alt="Learn Anywhere">
+            </div>
+            <div class="loginIntroText">
+                <h1>learn anywhere</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, voluptates minus amet
+                    similique atque.</p>
+            </div>
+            <div class="loginIntroSlider">
+                <div class="slider">
+                    <img src="./images/Rectangle 10.png" >
+                    <img src="./images/Rectangle 20.png" >
+                    <img src="./images/Rectangle 30.png" >
+                </div>
+            </div>
+        </div>
+
+        <div class="loginFormSection">
+            <form class="loginForm">
+                <img src="./images/logo.png" alt="Home Teach">
+                <div class="userRole">
+                    <span>Sign up as</span>
+                    <select class="login-option-page" name="userRole" required>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                    </select>
+                </div>
+                <div class="userEmail">
+                    <label for="email">Email Address</label>
+                    <input id="email" type="email" placeholder="Email Address" required>
+                    <i class="far fa-envelope"></i>
+                </div>
+                <div class="userPassword">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" minlength="5" maxlength="10" placeholder="Password" required>
+                    <i class="far fa-eye-slash"></i>
+                </div>
+                <div class="userConfirmPassword">
+                    <label for="confirmPassword">Confirm Password</label>
+                    <input id="confirmPassword" type="password" minlength="5" maxlength="10" placeholder="Confirm Password" required>
+                    <i class="far fa-eye-slash"></i>
+                </div>
+                        
+                <input type="submit" value="Sign Up">
+                
+                <p class="altSignUp">Or Sign Up With</p>
+            </form>
+            <div class="socialSignUp">
+                <div class="socialFacebook">
+                    <img src="./images/facebook-svgrepo-com.png" alt="facebook logo">
+                    <p>facebook</p>
+                </div>
+                <div class="socialGoogle">
+                    <img src="./images/image 1.png" alt="google logo">    
+                    <p>Google</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+       <span class="lang eng">english(UK)</span>
+       <span class="lang hausa">hausa</span>
+       <span class="lang port">portuguese(Brazil)</span>
+       <span class="lang fra">francais(France)</span>
+       <span class="lang esp">espanol</span>
+       <span class="land ita">italiano</span>
+       <span class="lang mand"></span>
+       <span class="lang dutch">doutsch</span>
+       <span class="lang indo">bahasa indonesia</span>
+    </footer>
+
+    <script src="./js/newSignUp.js"></script>
+</body>
+</html>
